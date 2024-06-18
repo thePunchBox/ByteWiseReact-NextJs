@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div class="app">
+      <h1>Hello World</h1>
+      <p>
+        This is a excersice to see how JSX works JSX simply works by combining{" "}
+        <br />
+        JavaScript and HTML at once for example this paragraph is written in{" "}
+        <br />a P tag which is being retuned from a function App in App.js file.
+      </p>
+      <p>
+        The color of this page is changed to see how the css works in this and
+        it the same as normal
+      </p>
     </div>
   );
 }
